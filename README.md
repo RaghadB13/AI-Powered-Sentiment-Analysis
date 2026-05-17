@@ -1,29 +1,41 @@
 #AI-Powered-Sentiment-Analysis
 
 ## Project Overview
-This project focuses on the development and deployment of a Natural Language Processing (NLP) system designed to classify textual opinions into three primary categories: Positive, Negative, and Neutral. The system provides an automated alternative to manual sentiment classification, optimized for handling large-scale textual datasets such as product reviews and social media feedback.
+A machine learning project designed to analyze and classify text-based data into different emotional states. The model processes natural language to detect sentiment (Positive, Negative, or Neutral) with high accuracy..
 
-## Performance and Evaluation Metrics
-The model was trained and validated using a rigorous machine learning pipeline, achieving the following technical results:
-* Accuracy Score: 85.44%
-* Classification Algorithm: Logistic Regression
-* Feature Extraction: TF-IDF (Term Frequency-Inverse Document Frequency)
-* Hyperparameters: N-gram range of (1,2) to capture both individual words and contextual phrases.
-* Dataset: Amazon Fine Food Reviews (over 560,000 samples).
+# Model Performance & Analytics
+The sentiment analysis engine was developed using a robust classification pipeline, yielding the following performance indicators:
 
-## Technical Implementation
-The system architecture consists of two integrated components:
-1. The Machine Learning Pipeline: Developed using Python, utilizing NLTK for text preprocessing (tokenization, stopword removal, and cleaning) and Scikit-learn for model training.
-2. The Web Interface: A Flask-based application that serves as the bridge between the trained model and the user interface.
-3. External Access: Implementation of Ngrok for public tunneling, allowing the application to be accessible via a public URL during the development and testing phases.
+Accuracy: 85.44% on unseen validation data.
 
-## System Components
-* Text Preprocessing: Automated logic for case folding, URL removal, and lemmatization to ensure high data quality.
-* Prediction Engine: Backend logic that transforms user input into numerical vectors using the TF-IDF vectorizer before passing it to the Logistic Regression model.
-* Responsive UI: A web dashboard that provides real-time visual feedback based on the sentiment classification results.
+Model Architecture: Logistic Regression chosen for its efficiency in high-dimensional text classification.
 
-## Repository Structure
-* Sentiment_Analysis_Pipeline.ipynb: The primary Jupyter Notebook containing the training logic and the Flask server code.
-* Sentiment-Analysis-Technical-Report.pdf: Comprehensive technical documentation detailing the methodology and performance matrices.
-* templates/: Directory containing the HTML templates for the web application's frontend.
+Vectorization Strategy: TF-IDF Vectorization to prioritize meaningful terms over common stop words.
+
+Contextual Analysis: Implementation of Bi-gram (1,2) modeling to preserve phrase-level context and linguistic nuances.
+
+Data Source: Trained on the Amazon Fine Food Reviews dataset, leveraging over 560,000 annotated samples.
+
+# System Architecture
+The application integrates a dual-layered technical stack:
+
+Machine Learning Core: A Python-based pipeline utilizing NLTK for advanced text normalization and Scikit-learn for statistical modeling.
+
+Deployment Layer: A Flask web framework providing a lightweight API to serve model predictions in real-time.
+
+Connectivity: Integrated Ngrok tunneling to facilitate external access and public URL testing for the local development server.
+
+# Key System Features
+Automated Preprocessing: A custom pipeline for case folding, lemmatization, and noise reduction (URL/special character removal).
+
+Real-time Inference Engine: A backend process that transforms raw user input into feature vectors for immediate classification.
+
+Dynamic Web Dashboard: A responsive frontend interface that visualizes sentiment scores and classification results instantly.
+
+File Inventory
+Sentiment_Analysis_Pipeline.ipynb: The central development notebook containing data preprocessing, model training, and the Flask server deployment.
+
+Technical_Analysis_Report.pdf: Detailed documentation of the experimental setup, methodology, and evaluation metrics.
+
+templates/: Directory housing the Semantic HTML5 files that define the web application's user interface.
 
