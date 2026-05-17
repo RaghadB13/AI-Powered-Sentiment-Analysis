@@ -1,7 +1,7 @@
 #AI-Powered-Sentiment-Analysis
 
-## Project Overview
-A machine learning project designed to analyze and classify text-based data into different emotional states. The model processes natural language to detect sentiment (Positive, Negative, or Neutral) with high accuracy..
+# Project Overview
+A machine learning project designed to analyze and classify text-based data into distinct emotional states. The model leverages Natural Language Processing (NLP) to detect sentiment (Positive, Negative, or Neutral) with high precision, bridging the gap between raw text and actionable insights.
 
 # Model Performance & Analytics
 The sentiment analysis engine was developed using a robust classification pipeline, yielding the following performance indicators:
