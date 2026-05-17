@@ -37,5 +37,4 @@ Sentiment_Analysis_Pipeline.ipynb: The central development notebook containing d
 
 Technical_Analysis_Report.pdf: Detailed documentation of the experimental setup, methodology, and evaluation metrics.
 
-templates/: Directory housing the Semantic HTML5 files that define the web application's user interface.
-
+index.html: The user interface for the web application.
