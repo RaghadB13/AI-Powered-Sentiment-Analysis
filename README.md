@@ -1,4 +1,4 @@
-# Sentiment Analysis AI System: Deployment and Performance Study
+#AI-Powered-Sentiment-Analysis
 
 ## Project Overview
 This project focuses on the development and deployment of a Natural Language Processing (NLP) system designed to classify textual opinions into three primary categories: Positive, Negative, and Neutral. The system provides an automated alternative to manual sentiment classification, optimized for handling large-scale textual datasets such as product reviews and social media feedback.
